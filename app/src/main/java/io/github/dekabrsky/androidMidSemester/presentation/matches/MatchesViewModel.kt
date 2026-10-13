@@ -26,6 +26,7 @@ sealed interface MatchesUiState {
 
 class MatchesViewModel(
     private val getMatches: GetMatchesUseCase,
+
 ) : ViewModel() {
 
     private val _state =
